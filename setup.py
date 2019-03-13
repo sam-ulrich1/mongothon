@@ -15,7 +15,7 @@ setuptools.setup(
                      "API for Python, loosely based on the awesome " +
                      "mongoose.js library.",
     install_requires=[
-        'pymongo>=3.0.0, <4.0.0', 'inflection==0.2.0', 'schemer>=0.2.0, <0.3.0'
+        'pymongo>=3.0.0, <4.0.0', 'inflection==0.2.0', 'git+https://github.com/sam-ulrich1/schemer.git'
     ],
     tests_require=['mock', 'nose']
     )
