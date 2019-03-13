@@ -17,6 +17,5 @@ setuptools.setup(
     install_requires=[
         'pymongo>=3.0.0, <4.0.0', 'inflection==0.2.0'
     ],
-    dependency_links = ['https://github.com/sam-ulrich1/schemer.git#egg=0.2.11'],
     tests_require=['mock', 'nose']
     )
